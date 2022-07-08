@@ -13,9 +13,47 @@
       <h1>GTK PROJECT LIST</h1>
     </div>
     <ul>
-      <li><a href="Tic-Tac-Toe.html">Tic-Tac-Toe</a></li>
-      <li><a href="times.html">Times</a></li>
-      <li><a href="stopwatch.html">StopWatch</a></li>
+      <li onclick="demo1()">About</li>
+      <li onclick="demo2()">To Do List</li>
+      <li onclick="demo3()">Tic-Tac-Toe</li>
+      <li onclick="demo4()">Times</li>
+      <li onclick="demo5()">StopWatch</li>
     </ul>
+
+    <!-- about -->
+    <div id="about">
+      <h1>WELCOME TO GTK'S PROGRAM COMPILE</h1>
+    </div>
+    <!-- todo list -->
+    <div id="todolist">
+      <div id="listdiv">
+        <h2 id="listh2">ADD TO DO LIST</h2>
+        <input type="text" id="listInput" placeholder="Title..." />
+        <span onclick="newElement()" class="addBtn">ADD</span>
+      </div>
+    </div>
+    <!-- tic-tac-toe -->
+    <div id="tictactoe">
+      <div>
+        <h1>TIC-TAC-TOE</h1>
+        <p id="turns">Player X turns</p>
+      </div>
+      <div>
+        <input type="text" id="b1" onclick="boxs1(); checkwin();" readonly />
+        <input type="text" id="b2" onclick="boxs2(); checkwin();" readonly />
+        <input type="text" id="b3" onclick="boxs3(); checkwin();" readonly />
+        <br />
+        <input type="text" id="b4" onclick="boxs4(); checkwin();" readonly />
+        <input type="text" id="b5" onclick="boxs5(); checkwin();" readonly />
+        <input type="text" id="b6" onclick="boxs6(); checkwin();" readonly />
+        <br />
+        <input type="text" id="b7" onclick="boxs7(); checkwin();" readonly />
+        <input type="text" id="b8" onclick="boxs8(); checkwin();" readonly />
+        <input type="text" id="b9" onclick="boxs9(); checkwin();" readonly />
+      </div>
+      <div>
+        <button id="reset" onclick="reset()">RESET GAME</button>
+      </div>
+    </div>
   </body>
 </html>
