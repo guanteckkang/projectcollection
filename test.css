@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+div {
+  margin: 50px;
+}
+h1 {
+  display: inline;
+  color: black;
+  font-family: Orbitron;
+  font-size: 100px;
+}
+#clock,
+p {
+  color: black;
+  font-size: 100px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+}
+button {
+  color: black;
+  font-size: 30px;
+  font-family: Orbitron;
+}

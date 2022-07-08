@@ -38,6 +38,9 @@ li:last-child {
 #tictactoe {
   display: none;
 }
+#showtimes {
+  display: none;
+}
 
 /* add list */
 #listdiv {
@@ -102,4 +105,11 @@ li:last-child {
   background-color: blue;
   padding: 20px;
   border-radius: 10px;
+}
+
+/* showtime */
+#timeh1,
+#showdate,
+#clock {
+  font-size: 90px;
 }
