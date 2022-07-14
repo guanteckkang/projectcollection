@@ -83,30 +83,6 @@ li:last-child {
   background-color: #bbb;
 }
 
-/* tic tac toe */
-#tictactoe input {
-  cursor: pointer;
-
-  padding: 30px;
-  border-radius: 10px;
-  font-size: 30px;
-  text-align: center;
-  margin: 10px;
-}
-#tictactoe h1 {
-  font-size: 50px;
-}
-#tictactoe div {
-  margin: 20px;
-  text-align: center;
-}
-#tictactoe button {
-  color: white;
-  background-color: blue;
-  padding: 20px;
-  border-radius: 10px;
-}
-
 /* showtime */
 #timeh1,
 #showdate,

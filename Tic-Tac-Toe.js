@@ -1,5 +1,4 @@
-// marking "x" or "o"
-var count = 1;
+// tic-tac-toe code
 function boxs1() {
   if (count == 1) {
     document.getElementById("b1").value = "X";
@@ -99,7 +98,6 @@ function boxs9() {
     count = 1;
   }
 }
-
 // check results
 function checkwin() {
   var box1 = document.getElementById("b1").value;
@@ -141,7 +139,6 @@ function checkwin() {
     }
   }
 }
-
 // reset game function
 function reset() {
   document.getElementById("b1").value = "";
