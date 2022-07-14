@@ -1,4 +1,8 @@
 $(document).ready(function () {
+  // myself
+  $("#demo0").click(function () {
+    $("#myself").toggle();
+  });
   // about
   $("#demo1").click(function () {
     $("#about").toggle();
