@@ -1,26 +1,6 @@
-* {
-  box-sizing: border-box;
-  background-color: black;
-  text-align: center;
-}
-div {
-  margin: 50px;
-}
-h1 {
-  display: inline;
-  color: #17d4fe;
+#showtime {
   font-family: Orbitron;
-  font-size: 100px;
 }
-#clock,
-p {
-  color: #17d4fe;
-  font-size: 100px;
-  font-family: Orbitron;
-  letter-spacing: 7px;
-}
-button {
-  color: #17d4fe;
-  font-size: 30px;
-  font-family: Orbitron;
+#showtime > h1 {
+  font-size: 100px !important;
 }

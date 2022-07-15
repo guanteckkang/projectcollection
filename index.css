@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  text-align: center;
 }
 div {
   text-align: center;
@@ -27,70 +28,23 @@ div {
 #taskbar > li:last-child {
   border-right: none;
 }
+header {
+  display: flow-root;
+}
 #title {
-  text-align: center !important;
+  width: 90%;
+  float: left;
+}
+#showtimes {
+  float: right;
 }
 /* hide div */
-#myself {
-  display: none;
-}
-#about {
-  display: none;
-}
 #todolist {
   display: none;
 }
 #tictactoe {
   display: none;
 }
-#showtimes {
+/* #showtimes {
   display: none;
-}
-
-/* add list */
-#listdiv {
-  background-color: #333;
-  padding: 30px 40px;
-  margin-top: 30px;
-  color: white;
-  text-align: center;
-}
-#listdiv:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-#listh2 {
-  margin: 5px;
-}
-#listInput {
-  margin: 0;
-  border: none;
-  border-radius: 0;
-  width: 75%;
-  padding: 10px;
-  float: left;
-  font-size: 16px;
-}
-.addBtn {
-  padding: 10px;
-  width: 25%;
-  background: #d9d9d9;
-  color: #555;
-  float: left;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s;
-  border-radius: 0;
-}
-.addBtn:hover {
-  background-color: #bbb;
-}
-
-/* showtime */
-#timeh1,
-#showdate,
-#clock {
-  font-size: 90px;
-}
+} */

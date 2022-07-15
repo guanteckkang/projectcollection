@@ -1,8 +1,4 @@
 $(document).ready(function () {
-  // myself
-  $("#demo0").click(function () {
-    $("#myself").toggle();
-  });
   // about
   $("#demo1").click(function () {
     $("#about").toggle();
@@ -20,13 +16,3 @@ $(document).ready(function () {
     $("#showtime").toggle();
   });
 });
-// function showtime
-// declare var for today date
-function demo4() {
-  const x = document.getElementById("showtimes");
-  if (x.style.display == "none") {
-    x.style.display = "block";
-  } else if ((x.style.display = "block")) {
-    x.style.display = "none";
-  }
-}

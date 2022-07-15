@@ -1,4 +1,5 @@
 // tic-tac-toe code
+var count = 1;
 function boxs1() {
   if (count == 1) {
     document.getElementById("b1").value = "X";
@@ -119,6 +120,7 @@ function checkwin() {
     (box1 == "X" && box5 == "X" && box9 == "X") ||
     (box3 == "X" && box5 == "X" && box7 == "X")
   ) {
+    document.getElementById("turns").innerHTML = "Player X WIN";
     alert("Player X WIN");
   } else if (
     (box1 == "O" && box2 == "O" && box3 == "O") ||
@@ -130,6 +132,7 @@ function checkwin() {
     (box1 == "O" && box5 == "O" && box9 == "O") ||
     (box3 == "O" && box5 == "O" && box7 == "O")
   ) {
+    document.getElementById("turns").innerHTML = "Player 0 WIN";
     alert("Player O WIN");
   } else {
     if (count == 1) {
@@ -159,4 +162,5 @@ function reset() {
   document.getElementById("b8").disabled = false;
   document.getElementById("b9").value = "";
   document.getElementById("b9").disabled = false;
+  document.getElementById("turns").innerHTML = "Player X TURNS";
 }
